@@ -1,0 +1,103 @@
+
+body {
+    background-color: hsl(30, 38%, 92%);
+  }
+  table {
+    border-radius: 20px;
+    overflow: hidden;
+    border-collapse: collapse;
+  }
+  .desktop-version {
+    display: block;
+    width: 300px;
+  }
+  .mobile-version {
+    display: none;
+  }
+  .text-container {
+    width: 300px;
+  }
+  .main-div {
+    position: relative;
+    top: 50%;
+    transform: translateY(+31%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-container {
+    padding-left: 20px;
+    background-color: white;
+    margin: 0;
+  }
+  .title1 {
+    color: #868990;
+    font-family: "Montserrat Extrabold", sans-serif, monospace;
+    font-weight: lighter;
+    position: relative;
+    bottom: 25px;
+    display: inline;
+  }
+  .title2 {
+    font-family: "Fraunces", serif;
+    font-weight: bolder;
+    position: relative;
+    bottom: 30px;
+    width: 160px;
+  }
+  .description-text {
+    width: 220px;
+    position: relative;
+    bottom: 25px;
+    color: #868990;
+  }
+  .new-price {
+    color: #3d8168;
+    font-family: "Fraunces", serif;
+    display: inline;
+    position: relative;
+  }
+  .old-price {
+    color: #989ba3;
+    text-decoration-line: line-through;
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    bottom: 5px;
+  }
+  .both-prices {
+    position: relative;
+    bottom: 20px;
+  }
+  a.cart-btn {
+    background-color: #3e9374;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 50px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: right;
+    align-items: right;
+  }
+  a.cart-btn span {
+    margin-right: 0;
+    display: block;
+    width: 79px;
+    height: 29px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE0LjM4MyAxMC4zODhhMi4zOTcgMi4zOTcgMCAwIDAtMS41MTgtMi4yMjJsMS40OTQtNS41OTNhLjguOCAwIDAgMC0uMTQ0LS42OTUuOC44IDAgMCAwLS42MzEtLjI4SDIuNjM3TDIuMzczLjU5MUEuOC44IDAgMCAwIDEuNTk4IDBIMHYxLjU5OGguOTgzbDEuOTgyIDcuNGEuOC44IDAgMCAwIC43OTkuNTloOC4yMjJhLjguOCAwIDAgMSAwIDEuNTk5SDEuNTk4YS44LjggMCAxIDAgMCAxLjU5OGguOTQzYTIuMzk3IDIuMzk3IDAgMSAwIDQuNTA3IDBoMS44ODVhMi4zOTcgMi4zOTcgMCAxIDAgNC4zMzEtLjM3NiAyLjM5NyAyLjM5NyAwIDAgMCAxLjEyLTIuMDIxWk0xMS4yNiA3Ljk5SDQuMzk1TDMuMDY4IDMuMTk2aDkuNDc3TDExLjI2IDcuOTkxWm0tNi40NjUgNi4zOTJhLjguOCAwIDEgMSAwLTEuNTk4LjguOCAwIDAgMSAwIDEuNTk4Wm02LjM5MyAwYS44LjggMCAxIDEgMC0xLjU5OC44LjggMCAwIDEgMCAxLjU5OFoiIGZpbGw9IiNGRkYiLz48L3N2Zz4=);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(0deg);
+  }
+  a.cart-btn:hover {
+    background-color: #3b8b6e;
+  }
+  a.cart-btn:active {
+    transform: scale(0.95);
+  }
+

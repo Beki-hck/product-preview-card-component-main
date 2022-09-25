@@ -1,1 +1,1 @@
-# product-preview-card-component-main
+Product preview card component. It has the completed site except the mobile version. I used tables which made it hard for me to reorder it to fit the mobile design version. I'll release a newer version which will include the mobile design version and fixes on minor bugs.
